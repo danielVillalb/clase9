@@ -1,0 +1,13 @@
+curl --request POST \
+  --url https://dev-q8qjb7oy53nilmb32.us.auth0.com/oauth/token \
+  --header 'content-type: application/json' \
+  --data '{"client_id":"ioNlnmNFkMqT1FrccrnvIfhpli8TQywJ","client_secret":"q1Koi9QwL61vDoBRy-yP_41nBO9lqzflItFD_PTPUiFdkx-9v6ebvM3e_LHiIJxA","audience":"http://localhost:3004/libros","grant_type":"client_credentials"}'
+
+
+
+
+
+
+OAUTH_AUDIENCE=http://localhost:3004/libros
+OAUTH_URL=https://dev-q8qjb7oy53nilmb32.us.auth0.com/
+MONGO_DB=mongodb://127.0.0.1:27017/biblioteca
